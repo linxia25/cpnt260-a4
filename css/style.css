@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+/*font*/
+
+.heading {
+  font-size: 3vmin;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tagline {
+  margin: auto;
+  font-size: 2.5vmin;
+  font-family: 'Rubik', sans-serif;
+  
+}
+
+form > * {
+  margin-top: 2vh;
+  font-size: 2vmin;
+}
+
+.site-name {
+  font-size: 150%;
+}
+
+
+h2 {
+  font-family: 'open sans';
+  color: orange;
+  font-size: 25px;
+}
+
+p {
+  max-width: 90ch;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*navigation,Mobile First*/
+nav {
+  margin-top: 2vh;
+}
+
+nav div a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: orange;
+}
+
+.register {
+  background-color: orange;
+}
+
+@media screen and (min-width: 850px) {
+
+/*Section*/
+section {
+  height: 40vh;
+  background-image: url("../images/hero.jpg");
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 1vmax;
+}
+  
+/*navigation*/
+nav {
+  margin: 2vh 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  list-style: none;
+}
+  
+nav div {
+  margin-right: 2.5vw;
+}
+
+nav div a {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  display: block;
+}
+  
+a:hover {
+  color: red;
+  }
+  
+a:active {
+  color: orange;
+  }
+  
+.register {
+  background-color: orange;
+  }
+
+/*font*/
+p {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 30px;
+}
+  
+
+/*Employees Testimonials*/
+.et {
+  display:flex;
+  height: fit-content;
+}
+
+.et span {
+  margin-right: 10px;
+  flex:1;
+  padding: 25px 25px;
+  font-size: 25px;
+  background-color: #fff7e6;
+}
+
+/*Gallery*/
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-items: center;
+  grid-gap:10px;
+}
+
+figure img:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+figure {
+margin: auto;
+border: 1px solid grey;
+font-size:0;
+}
+
+figure img {
+  object-fit: contain;
+  width: 100%;
+  margin: 0;
+}
+
+figure figcaption {
+  min-width: 30ch;
+  background-color: rgba( 255, 128, 0, .3);
+  text-align: center;
+  
+  font-size: 1.2rem;
+  font-family: rubik;
+}
+
+/*social media*/
+.social-media{
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+}
+
+.social-media li {
+  font-size: 5em;
+  margin-right: 3vw;
+
+}
+
+/*More Information*/
+.more {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.more a {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  
+  color: white;
+  background-color: orange;
+  
+  text-decoration: none;
+}
+
+/*Footer*/
+footer {
+ margin-top: 2vh;
+ height: 4vh;
+ 
+ font-size: 1.5em;
+ font-family: Arial, Helvetica, sans-serif;
+ color: white;
+ background: gray;
+ text-align: center;
+ line-height: 4vh;
+}

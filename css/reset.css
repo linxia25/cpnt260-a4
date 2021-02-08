@@ -1,0 +1,10 @@
+
+body {
+  width: 50vw;
+  min-width: 320px;
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
