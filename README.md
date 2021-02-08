@@ -19,7 +19,7 @@ A website for online sales of high-end furniture!
 
 ## Links
 - GH repo: https://github.com/linxia25/cpnt260-a4.git
-- GH Pages site: https://linxia25.github.io/cpnt260-a2/
+- GH Pages site: https://linxia25.github.io/cpnt260-a4/
 
 ## File/directory
 - /css
